@@ -19,6 +19,9 @@ file hello
 
 ## UnCommit 16-21 lines in CMakeLists.txt
 rm -rf ./*
+
 cmake ..
+
 make
+
 file hello
