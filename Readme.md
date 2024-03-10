@@ -18,3 +18,5 @@ file hello
 
 rm -rf ./*
 cmake ..
+make
+file hello
