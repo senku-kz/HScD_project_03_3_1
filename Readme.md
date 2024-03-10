@@ -5,9 +5,11 @@ sudo apt update -y
 sudo apt install -y crossbuild-essential-armel
 
 
+cd build
+
 
 ### Run CMake:
-cd build && cmake ..
+cmake ..
 
 ### Now, build the application by running the following:
 make
