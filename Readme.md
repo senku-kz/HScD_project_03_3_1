@@ -5,6 +5,7 @@ sudo apt update -y
 sudo apt install -y crossbuild-essential-armel
 
 ### go to the build directory
+mkdir build
 cd build
 
 
