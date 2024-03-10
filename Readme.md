@@ -18,10 +18,14 @@ make
 file hello
 
 ## UnCommit 16-21 lines in CMakeLists.txt
+### Remove files in folder
 rm -rf ./*
 
+### Run CMake:
 cmake ..
 
+### Now, build the application by running the following:
 make
 
+### Get information about the resulting executable binary using the file command:
 file hello
