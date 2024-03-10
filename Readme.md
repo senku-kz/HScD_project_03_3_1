@@ -7,6 +7,7 @@ sudo apt install -y crossbuild-essential-armel
 ### go to the build directory
 cd build
 
+
 # Compile for x86 architecture
 ## Commit 16-21 lines in CMakeLists.txt
 ### Run CMake:
