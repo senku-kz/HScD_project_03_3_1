@@ -20,6 +20,9 @@ make
 ### Get information about the resulting executable binary using the file command:
 file hello
 
+### fast way
+rm -rf ./* && cmake .. && make && file hello
+
 
 # Compile for ARM architecture
 ## UnCommit 16-21 lines in CMakeLists.txt
@@ -34,3 +37,6 @@ make
 
 ### Get information about the resulting executable binary using the file command:
 file hello
+
+### fast way
+rm -rf ./* && cmake .. && make && file hello
