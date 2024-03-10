@@ -7,7 +7,7 @@ sudo apt install -y crossbuild-essential-armel
 
 cd build
 
-
+## Commit 16-21 lines in CMakeLists.txt
 ### Run CMake:
 cmake ..
 
@@ -17,7 +17,7 @@ make
 ### Get information about the resulting executable binary using the file command:
 file hello
 
-
+## UnCommit 16-21 lines in CMakeLists.txt
 rm -rf ./*
 cmake ..
 make
